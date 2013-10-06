@@ -52,38 +52,20 @@
     </div>
 
     <div class="container">
-    <h3 data-bind="text:url"></h3>
-    	<table class="table table-responsive">
-    		<thead>
-    			<th>Adresse</th>
-    			<th>Plassering</th>
-    			<th>Latitude</th>
-    			<th>Longitude</th>
-    		</thead>
-    		<tbody data-bind="foreach:entries">
-    			<tr>
-    				<td data-bind="text:adresse"></td>
-    				<td data-bind="text:plassering"></td>
-    				<td data-bind="text:lat"></td>
-    				<td data-bind="text:lon"></td>
-    			</tr>
-    		</tbody>
-    	</table>
+      <div id="dataTable"></div>
     	<div id="map-canvas" style="height:500px"></div>
     </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-   <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
- <!-- Latest compiled and minified JavaScript -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+     <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
-<script src="vendor/underscore-min.js"></script>
-<script src="vendor/knockout-2.3.0.js"></script>
- <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCcdZ_uBv9RBTbDAXVdnI-lZ8QvnoyVzk&sensor=true">
-    </script>
-<script src="app/app.js"></script>
-  </body>
+    <script src="vendor/underscore-min.js"></script>
+    <script src="vendor/knockout-2.3.0.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCcdZ_uBv9RBTbDAXVdnI-lZ8QvnoyVzk&sensor=true"></script>
+    <script src="app/app.js"></script>
+    </body>
 </html>
