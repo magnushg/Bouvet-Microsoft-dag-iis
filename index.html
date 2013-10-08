@@ -9,10 +9,11 @@
     <title>Bouvet Microsoft-dag 2013</title>
 
    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="content/css/bootstrap.min.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="content/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="content/css/app.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -22,7 +23,6 @@
   </head>
 
   <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -69,21 +69,19 @@
     			</tr>
     		</tbody>
     	</table>
-    	<div id="map-canvas" style="height:500px"></div>
+    	<div id="map-canvas"></div>
     </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-   <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+   <script src="vendor/jquery-2.0.3.min.js"></script>
  <!-- Latest compiled and minified JavaScript -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="vendor/bootstrap.min.js"></script>
 
 <script src="vendor/underscore-min.js"></script>
 <script src="vendor/knockout-2.3.0.js"></script>
- <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCcdZ_uBv9RBTbDAXVdnI-lZ8QvnoyVzk&sensor=true">
-    </script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCcdZ_uBv9RBTbDAXVdnI-lZ8QvnoyVzk&sensor=true"></script>
 <script src="app/app.js"></script>
-  </body>
+</body>
 </html>
